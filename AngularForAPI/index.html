@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>REST Auth</title>
+
+    <style>
+      .metadata {
+        font-size: 0.8rem;
+        font-style: italic;
+        color: #999;
+      }
+    </style>
+  </head>
+  <body>
+    <div ng-app='Darazon'>
+      <div ng-include="'darazon/partials/navbar.html'"></div>
+      <div>
+      </div>
+      <div ng-view></div>
+    </div>
+
+    <script src='./node_modules/angular/angular.min.js'></script>
+    <script src='./node_modules/angular-route/angular-route.min.js'></script>
+
+
+    <script src='./darazon/app.js'></script>
+    <script src='./darazon/auth/AuthCtrl.js'></script>
+    <script src='./darazon/auth/RegisterCtrl.js'></script>
+    <script src='./darazon/products/ProductsCtrl.js'></script>
+    <script src='./darazon/products/ProductTypesCtrl.js'></script>
+  </body>
+</html>

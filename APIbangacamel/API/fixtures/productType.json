@@ -1,0 +1,63 @@
+[
+  {
+    "model": "API.ProductType",
+    "fields": {
+      "category": "Home Goods"
+    }
+  },
+  {
+    "model": "API.ProductType",
+    "fields": {
+      "category": "Books"
+    }
+  },
+  {
+    "model": "API.ProductType",
+    "fields": {
+      "category": "Movies"
+    }
+  },
+  {
+    "model": "API.ProductType",
+    "fields": {
+      "category": "Electronics"
+    }
+  },
+  {
+    "model": "API.ProductType",
+    "fields": {
+      "category": "Health & Beauty"
+    }
+  },
+  {
+    "model": "API.ProductType",
+    "fields": {
+      "category": "Shoes"
+    }
+  },
+  {
+    "model": "API.ProductType",
+    "fields": {
+      "category": "Toys"
+    }
+  },
+  {
+    "model": "API.ProductType",
+    "fields": {
+      "category": "Sporting Goods and Outdoors"
+    }
+  },
+    {
+    "model": "API.ProductType",
+    "fields": {
+      "category": "Pets"
+    }
+  },
+    {
+    "model": "API.ProductType",
+    "fields": {
+      "category": "Music"
+    }
+  }
+
+]

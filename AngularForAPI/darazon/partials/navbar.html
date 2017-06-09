@@ -1,0 +1,22 @@
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="nav navbar-nav">
+        <form action= "{% url 'website:search' %}" type="get" class="navbar-form navbar-left" role="search">
+            <input id="search_input" method="get" name="q" type="text" class="form-control" placeholder="Search Products">
+            <input class="btn btn-default btn-sm" type="submit" value="Search">
+                <a ng-href="/#!/products">Products</a>
+                <a ng-href="/#!/types">Product Types</a>
+                <a ng-href="/homepage">
+                    <button type="button" class="btn btn-primary btn-sm">
+                        <span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home
+                    </button>
+                </a>
+                <span ng-show="isLoggedIn"><a ng-href="#!/home">Home</a></span>
+                <span ng-show="isLoggedIn"><a ng-href="#!/products">Products</a></span>
+                <span ng-show="isLoggedIn"><a ng-href="#!/types">Product Types</a></span>
+                <span ng-show="isLoggedIn"><a ng-href="#!/cart">My Cart</a></span>
+                <span ng-show="!isLoggedIn"><a ng-href="#!/login">Login</a></span>
+                <span ng-show="!isLoggedIn"><a ng-href="#!/register">Register</a></span>
+                <span ng-show="isLoggedIn"><a ng-href="#!/storytime/logout">Logout</a></span>
+        </form>
+    </div>
+</nav>

@@ -1,0 +1,10 @@
+<h1>Products!</h1>
+
+<div>
+  <div ng-repeat="product in products">
+    ((product.title)): $((product.price))
+    <span class="metadata">((product.producttype.title))</span>
+  </div>
+
+  <button class="btn btn-success btn-lg">Add to Cart</button>
+</div>

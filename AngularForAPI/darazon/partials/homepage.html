@@ -1,0 +1,27 @@
+<h1>Welcome to Dangazon</h1>
+
+
+
+
+
+
+
+<!-- ngInclude navbar? -->
+
+
+
+<!-- to view 20 products
+ -->
+
+    <ol>
+      {% for product in products %}
+          <li><a href="{% url 'website:single_product' product.id %}">{{ product.title }} - {{ product.description }}</a></li> 
+      {% endfor %}
+    </ol>
+
+
+<div>
+  <div ng-repeat="product in products">
+    ((product.title)): $((product.price))
+  </div>
+</div>

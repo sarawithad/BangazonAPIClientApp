@@ -1,0 +1,72 @@
+[
+ {
+ 		"model": "API.paymenttype",
+ 		"fields":{
+		    "account_number": 5464471,
+		    "customer": 2
+			}
+ },
+ {
+ 		"model": "API.paymenttype",
+ 		"fields":{
+		    "account_number": 2598903,
+		    "customer": 3
+			}
+ },
+ {
+ 		"model": "API.paymenttype",
+ 		"fields":{
+		    "account_number": 6088653,
+		    "customer": 4
+			}
+ },
+ {
+ 		"model": "API.paymenttype",
+ 		"fields":{
+		    "account_number": 3321295,
+		    "customer": 5
+			}
+ },
+ {
+ 		"model": "API.paymenttype",
+ 		"fields":{
+		    "account_number": 3531924,
+		    "customer": 6
+			}
+ },
+ {
+ 		"model": "API.paymenttype",
+ 		"fields":{
+		    "account_number": 1405370,
+		    "customer": 7
+			}
+ },
+ {
+ 		"model": "API.paymenttype",
+ 		"fields":{
+		    "account_number": 7214490,
+		    "customer": 8
+			}
+ },
+ {
+ 		"model": "API.paymenttype",
+ 		"fields":{
+		    "account_number": 8991365,
+		    "customer": 1
+			}
+ },
+ {
+ 		"model": "API.paymenttype",
+ 		"fields":{
+		    "account_number": 8790037,
+		    "customer": 9
+			}
+ },
+ {
+ 		"model": "API.paymenttype",
+ 		"fields":{
+		    "account_number": 4679853,
+		    "customer": 10
+			}
+ }
+ ] 

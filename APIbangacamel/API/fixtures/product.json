@@ -1,0 +1,113 @@
+[
+  {
+    "model": "API.Product",
+    "fields": {
+      "price": 199.99,
+      "title": "turntable",
+      "description": "Play all your favorite vinyl",
+      "created": "2016-12-05",
+      "product_type":4,
+      "customer": 1
+    }
+  },
+    {
+    "model": "API.Product",
+    "fields": {
+      "price": 400.00,
+      "title": "tent",
+      "description": "provides shelter in the great outdoors",
+      "created": "2017-03-15",
+      "product_type": 8,
+      "customer": 2
+    }
+  },
+  {
+    "model": "API.Product",
+    "fields": {
+      "price": 8.99,
+      "title": "The Great Gatsby",
+      "description": "Novel written by F. Scott Fitzgerald",
+      "created": "2015-08-02",
+      "product_type": 2,
+      "customer": 3
+    }
+  },
+  {
+    "model": "API.Product",
+    "fields": {
+      "price": 85.00,
+      "title": "Nirvana Black",
+      "description": "perfume by Elizabeth & James",
+      "created": "2017-11-06",
+      "product_type": 5,
+      "customer": 4
+    }
+  },
+  {
+    "model": "API.Product",
+    "fields": {
+      "price": 5.99,
+      "title": "Greenies",
+      "description": "Helps freshen your dog's breath. 10 oz bag.",
+      "created": "2017-02-05",
+      "product_type": 9,
+      "customer": 5
+    }
+  },
+  {
+    "model": "API.Product",
+    "fields": {
+      "price": 40.00,
+      "title": "Pure Comedy Deluxe Vinyl",
+      "description": "Father John Misty’s third album recorded in 2016",
+      "created": "2017-01-05",
+      "product_type": 10,
+      "customer": 6
+    }
+  },
+  {
+    "model": "API.Product",
+    "fields": {
+      "price": 39.99,
+      "title": "GoldieBlox Dunk Tank and Parade Float",
+      "description": "Builds spatial skills, engineering principles and confidence in problem-solving",
+      "created": "2017-09-14",
+      "product_type":7,
+      "customer": 7
+    }
+  },
+  {
+    "model": "API.Product",
+    "fields": {
+      "price": 249.00,
+      "title": "Joie Women's Adria Ankle Bootie",
+      "description": "Color: Powder, Size: 7",
+      "created": "2016-05-15",
+      "product_type":6,
+      "customer": 8
+    }
+  },
+  {
+    "model": "API.Product",
+    "fields": {
+      "price": 76.50,
+      "title": "Brass lamp",
+      "description": "Let there be light!",
+      "created": "2016-06-02",
+      "product_type": 1,
+      "customer": 9
+    }
+  },
+  {
+    "model": "API.Product",
+    "fields": {
+      "price": 29.99,
+      "title": "La La Land Blu-Ray",
+      "description": "Oscar-winning musical starring Ryan Gosling and Emma Stone",
+      "created": "2016-03-30",
+      "product_type": 3,
+      "customer": 10
+    }
+  }
+
+]
